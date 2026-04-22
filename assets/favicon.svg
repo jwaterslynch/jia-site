@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="JIA">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f7f66" />
+      <stop offset="100%" stop-color="#e27a3f" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#g)" />
+  <text
+    x="50%"
+    y="55%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Georgia, serif"
+    font-size="70"
+    font-weight="700"
+    fill="#ffffff"
+  >J</text>
+</svg>

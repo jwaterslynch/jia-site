@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JIA — AI-Native Manuscript Review</title>
+  <meta
+    name="description"
+    content="JIA is an AI-native manuscript review system built around evidence-linked critique, multi-model debate, and actionable revision planning."
+  />
+  <meta property="og:title" content="JIA — AI-Native Manuscript Review" />
+  <meta
+    property="og:description"
+    content="Evidence-linked review, multi-model debate, reviewer calibration, and shareable editorial diagnostics."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jwaterslynch.github.io/jia-site/" />
+  <meta property="og:image" content="https://jwaterslynch.github.io/jia-site/assets/og-card.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="JIA — AI-Native Manuscript Review" />
+  <meta
+    name="twitter:description"
+    content="A transparent review pipeline with track-aware routing, debate rounds, and revision-first editorial output."
+  />
+  <meta name="twitter:image" content="https://jwaterslynch.github.io/jia-site/assets/og-card.svg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="JIA home">
+        <span class="brand-mark">J</span>
+        <span class="brand-text">JIA</span>
+      </a>
+      <nav class="topnav">
+        <a href="#how">How it works</a>
+        <a href="#experience">Experience</a>
+        <a href="#status">Status</a>
+      </nav>
+      <a class="button ghost" href="#contact">Share this</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">AI-native manuscript review for institutional acceleration</div>
+          <h1>Evidence-linked editorial diagnosis, not black-box peer review.</h1>
+          <p class="hero-lede">
+            JIA routes a manuscript through a track-aware audit pipeline, collects independent
+            model reviews, stages a structured debate, and returns a revision path with a visible
+            provenance trail.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#experience">See the product shape</a>
+            <a class="button secondary" href="https://github.com/jwaterslynch/jia-site">View site repo</a>
+          </div>
+          <ul class="hero-points">
+            <li>Track-aware review packs for conceptual, quantitative, qualitative, policy, and synthesis papers.</li>
+            <li>Multi-model editorial round, cross-review debate, and final action-editor synthesis.</li>
+            <li>Reviewer calibration profiles and exportable run bundles for auditability.</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="frame frame-primary">
+            <div class="frame-header">
+              <span class="frame-pill">Review</span>
+              <span class="frame-meta">Debate Theater</span>
+            </div>
+            <div class="phase-strip">
+              <span class="active">Prep</span>
+              <span class="active">Round 1</span>
+              <span class="active">Evidence</span>
+              <span class="active">Debate</span>
+              <span class="active">Decision</span>
+            </div>
+            <div class="reviewer-grid">
+              <article class="reviewer-card openai">
+                <div class="card-top">
+                  <strong>GPT</strong>
+                  <span>Major revision</span>
+                </div>
+                <div class="risk-bar"><i style="width: 74%"></i></div>
+                <p>Sees a sharper paper inside the current draft, but thinks the framing outruns the evidence.</p>
+              </article>
+              <article class="reviewer-card anthropic">
+                <div class="card-top">
+                  <strong>Claude</strong>
+                  <span>Minor revision</span>
+                </div>
+                <div class="risk-bar"><i style="width: 28%"></i></div>
+                <p>Finds a coherent core claim and asks for tighter scoping rather than a structural rewrite.</p>
+              </article>
+              <article class="reviewer-card gemini">
+                <div class="card-top">
+                  <strong>Gemini</strong>
+                  <span>Minor revision</span>
+                </div>
+                <div class="risk-bar"><i style="width: 46%"></i></div>
+                <p>Flags overclaiming around mechanism language and pushes for cleaner causal boundaries.</p>
+              </article>
+            </div>
+            <div class="consensus-strip">
+              <span>Consensus spread</span>
+              <div class="consensus-bar">
+                <i class="minor" style="width: 60%"></i>
+                <i class="major" style="width: 40%"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="frame frame-secondary">
+            <div class="frame-header">
+              <span class="frame-pill muted">Action editor</span>
+              <span class="frame-meta">Revision path</span>
+            </div>
+            <ol class="revision-list">
+              <li>Narrow the contribution to one main institutional mechanism.</li>
+              <li>Separate evidence-supported claims from boundary speculation.</li>
+              <li>Clarify fit with the institutional acceleration framing.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics">
+        <article>
+          <span class="metric-value">5</span>
+          <span class="metric-label">review phases from ingest to decision</span>
+        </article>
+        <article>
+          <span class="metric-value">27</span>
+          <span class="metric-label">modular audit outputs in the current pipeline</span>
+        </article>
+        <article>
+          <span class="metric-value">3</span>
+          <span class="metric-label">editorial rounds when debate mode is enabled</span>
+        </article>
+      </section>
+
+      <section class="section" id="how">
+        <div class="section-head">
+          <span class="eyebrow">How it works</span>
+          <h2>Built to show where the paper stands, what it actually proves, and what would improve it.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-step">
+            <span class="step-index">01</span>
+            <h3>Ingest and route</h3>
+            <p>The manuscript is sanitized, digested, classified into an epistemic track, and routed into the right module set.</p>
+          </article>
+          <article class="timeline-step">
+            <span class="step-index">02</span>
+            <h3>Independent reviews</h3>
+            <p>Multiple models review the manuscript independently before seeing each other’s positions.</p>
+          </article>
+          <article class="timeline-step">
+            <span class="step-index">03</span>
+            <h3>Evidence and checks</h3>
+            <p>Claims are anchored to excerpts, references are checked, and track-specific auditors probe the paper’s weakest seams.</p>
+          </article>
+          <article class="timeline-step">
+            <span class="step-index">04</span>
+            <h3>Debate and convergence</h3>
+            <p>Reviewers respond to each other, record concessions, hold or change position, and expose the real disagreement structure.</p>
+          </article>
+          <article class="timeline-step">
+            <span class="step-index">05</span>
+            <h3>Action-editor output</h3>
+            <p>The final layer produces an editorial diagnosis, protected core, contested findings, and a revision path rather than a bare score.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt" id="experience">
+        <div class="section-head">
+          <span class="eyebrow">Product experience</span>
+          <h2>A shareable interface for review as an auditable process.</h2>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-card">
+            <h3>Debate Theater</h3>
+            <p>Watch Round 1 reviews, evidence assembly, Round 2 cross-review, and the final action-editor decision as modules complete.</p>
+            <ul>
+              <li>Phase bar with live progress</li>
+              <li>Provider-branded reviewer cards</li>
+              <li>Consensus spread and debate deltas</li>
+            </ul>
+          </article>
+          <article class="experience-card">
+            <h3>Reviewer calibration</h3>
+            <p>Each reviewer card can reveal its historical tendency, average risk, debate stability, and editorial agreement profile.</p>
+            <ul>
+              <li>Strict / moderate / lenient tendencies</li>
+              <li>Recommendation distribution</li>
+              <li>Identity-aware reviewer keys</li>
+            </ul>
+          </article>
+          <article class="experience-card">
+            <h3>Provenance by default</h3>
+            <p>Runs write structured JSON, readable review threads, per-module artifacts, and exportable bundles that can be examined later.</p>
+            <ul>
+              <li>Run folders and share bundles</li>
+              <li>Module payload inspection</li>
+              <li>Snapshot-based reproducibility</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head narrow">
+          <span class="eyebrow">Why this shape</span>
+          <h2>JIA is designed as editorial diagnosis plus revision planning, with the verdict as a visible by-product.</h2>
+        </div>
+        <div class="principles-grid">
+          <article>
+            <h3>Evidence before posture</h3>
+            <p>Claims are anchored to manuscript excerpts and retrieval-supported references instead of free-floating reviewer confidence.</p>
+          </article>
+          <article>
+            <h3>Disagreement is surfaced</h3>
+            <p>The system does not collapse conflict into a single hidden score. It shows who changed position, what they conceded, and what remains contested.</p>
+          </article>
+          <article>
+            <h3>Revision paths are explicit</h3>
+            <p>The author sees a protected core, a constrained diagnosis, and a concrete path toward a stronger next version.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section status-section" id="status">
+        <div class="section-head">
+          <span class="eyebrow">Current status</span>
+          <h2>What is live now</h2>
+        </div>
+        <div class="status-board">
+          <article class="status-card">
+            <span class="status-tag live">Live</span>
+            <h3>Public share site</h3>
+            <p>This GitHub Pages site is the public-facing layer for sharing JIA with collaborators and advisors.</p>
+          </article>
+          <article class="status-card">
+            <span class="status-tag private">Private</span>
+            <h3>Interactive demo app</h3>
+            <p>The full manuscript upload and audit runner remains in a private repo because it depends on backend routes, API keys, and local run artifacts.</p>
+          </article>
+          <article class="status-card">
+            <span class="status-tag building">In progress</span>
+            <h3>Public naming and product identity</h3>
+            <p>The product is still using the JIA label publicly while the broader product name is being settled.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="contact-card">
+          <span class="eyebrow">Share</span>
+          <h2>Ready to send.</h2>
+          <p>
+            The public URL is stable and can be shared directly with Jason and Brendann.
+            The private interactive demo remains separate.
+          </p>
+          <div class="contact-actions">
+            <a class="button primary" href="https://jwaterslynch.github.io/jia-site/">Open site</a>
+            <a class="button secondary" href="https://github.com/jwaterslynch/jia-site">Public repo</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>JIA</strong>
+        <span>AI-native manuscript review with evidence-linked debate.</span>
+      </div>
+      <span class="footer-note">Public share site for the private product build.</span>
+    </footer>
+  </div>
+
+  <script src="site.js"></script>
+</body>
+</html>
