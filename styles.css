@@ -460,6 +460,18 @@ a {
   padding: 64px 0;
 }
 
+.benchmark-note {
+  max-width: 820px;
+  margin-bottom: 24px;
+  padding: 16px 18px;
+  border-left: 4px solid var(--accent);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: rgba(255, 255, 255, 0.54);
+  color: var(--muted);
+  line-height: 1.75;
+  box-shadow: 0 12px 30px rgba(22, 21, 31, 0.05);
+}
+
 .section-head {
   max-width: 860px;
   margin-bottom: 28px;
@@ -552,6 +564,10 @@ a {
 
 .contact-card p {
   color: rgba(255, 255, 255, 0.82);
+}
+
+.contact-ask {
+  font-weight: 600;
 }
 
 .contact-actions {
